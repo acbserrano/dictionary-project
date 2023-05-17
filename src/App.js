@@ -1,14 +1,28 @@
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-function App() {
+import SearchEngine from "./SearchEngine";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello</h1>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <h1>DICTONARY</h1>
+          <SearchEngine />
+        </header>
+        <footer className="app-footer">
+          <a
+            href="https://github.com/acbserrano/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Coded
+          </a>{" "}
+          by Ana
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;

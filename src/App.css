@@ -1,0 +1,10 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 150px;
+  font-family: "Libre Bodoni", serif;
+}
+
+.app-footer {
+  margin-top: 150px;
+}
