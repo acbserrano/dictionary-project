@@ -10,8 +10,8 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           <h1>DICTONARY</h1>
-          <SearchEngine />
         </header>
+        <SearchEngine />
         <footer className="app-footer">
           <a
             href="https://github.com/acbserrano/dictionary-project"
@@ -20,7 +20,7 @@ export default function App() {
           >
             Coded
           </a>{" "}
-          by Ana
+          by Ana Góis
         </footer>
       </div>
     </div>
