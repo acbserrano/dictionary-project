@@ -6,6 +6,6 @@ body {
 }
 
 .app-footer {
-  margin-top: 150px;
+  margin: 100px 0 150px 0;
   font-size: 14px;
 }

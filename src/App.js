@@ -11,7 +11,9 @@ export default function App() {
         <header className="App-header">
           <h1>DICTONARY</h1>
         </header>
-        <SearchEngine />
+        <main>
+          <SearchEngine />
+        </main>
         <footer className="app-footer">
           <a
             href="https://github.com/acbserrano/dictionary-project"
