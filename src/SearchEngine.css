@@ -44,6 +44,15 @@ input::placeholder {
   margin-top: 20px;
 }
 
-.meaning .synonyms {
-  color: red;
+.synonyms li {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.synonyms {
+  opacity: 0.6;
 }
