@@ -38,7 +38,7 @@ input::placeholder {
 }
 
 .meaning .definition {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .meaning .example {
@@ -59,4 +59,13 @@ ul {
   opacity: 0.6;
   margin-right: 10px;
   font-style: italic;
+}
+
+.capitalize {
+  display: inline-block;
+  text-transform: lowercase;
+}
+
+.capitalize::first-letter {
+  text-transform: uppercase;
 }
