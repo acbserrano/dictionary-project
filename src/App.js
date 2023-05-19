@@ -12,7 +12,7 @@ export default function App() {
           <h1>DICTONARY</h1>
         </header>
         <main>
-          <SearchEngine />
+          <SearchEngine defaultKeyword="water" />
         </main>
         <footer className="app-footer">
           <a

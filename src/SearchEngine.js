@@ -5,8 +5,8 @@ import "./SearchEngine.css";
 
 import Results from "./Results";
 
-export default function SearchEngine() {
-  let [keyword, setKeyword] = useState("");
+export default function SearchEngine(props) {
+  let [keyword, setKeyword] = useState(props.defaultKeyword);
   let [descriptionWord, setDescriptionWord] = useState(false);
 
   function handleResponse(response) {
@@ -54,6 +54,7 @@ export default function SearchEngine() {
       </div>
     );
   } else {
-    return <div className="dictonary">{form}</div>;
+    searchWord(keyword);
+    return <div className="dictonary">{form} </div>;
   }
 }
