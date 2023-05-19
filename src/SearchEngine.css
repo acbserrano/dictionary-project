@@ -1,29 +1,31 @@
 h1 {
-  font-size: 46px;
-  letter-spacing: 2px;
+  font-size: 62px;
+  letter-spacing: 3px;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 52px;
 }
 
 h3 {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 20px;
   margin-bottom: 50px;
+  opacity: 0.6;
+  font-weight: 600;
 }
 
 input::placeholder {
   font-style: italic;
   color: black;
+  font-size: 18px;
 }
 
 .search-button {
-  margin: 50px 0 50px 0;
+  margin: 20px 0 50px 0;
 }
 
 .meaning {
-  background-color: rgba(249, 241, 241, 0.448);
+  background-color: rgba(247, 231, 231, 0.448);
   margin-top: 20px;
   padding: 15px;
   font-size: 16px;
@@ -53,6 +55,8 @@ ul {
   margin-top: 10px;
 }
 
-.synonyms {
+.synonyms li {
   opacity: 0.6;
+  margin-right: 10px;
+  font-style: italic;
 }
