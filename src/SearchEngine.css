@@ -69,3 +69,7 @@ ul {
 .capitalize::first-letter {
   text-transform: uppercase;
 }
+
+.Photos img {
+  border-radius: 5px;
+}
