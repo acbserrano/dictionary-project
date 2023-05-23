@@ -1,0 +1,14 @@
+.synonyms li {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.synonyms li {
+  opacity: 0.6;
+  margin-right: 10px;
+  font-style: italic;
+}

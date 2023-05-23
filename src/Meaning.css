@@ -1,0 +1,21 @@
+.meaning {
+  background-color: rgba(247, 231, 231, 0.448);
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.meaning .partOfSpeech {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.meaning .definition {
+  font-size: 19px;
+}
+
+.meaning .example {
+  font-style: italic;
+  margin-top: 20px;
+}

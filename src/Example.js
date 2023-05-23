@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./SearchEngine.css";
+import "./Example.css";
 
 export default function Example(props) {
   if (props.example) {

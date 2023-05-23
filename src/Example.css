@@ -1,0 +1,8 @@
+.capitalize {
+  display: inline-block;
+  text-transform: lowercase;
+}
+
+.capitalize::first-letter {
+  text-transform: uppercase;
+}

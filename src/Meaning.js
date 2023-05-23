@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./SearchEngine.css";
+import "./Meaning.css";
 
 import Synonyms from "./Synonyms";
 import Example from "./Example";

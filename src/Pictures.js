@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./SearchEngine.css";
+import "./Pictures.css";
 
 export default function Pictures(props) {
   if (props.photos) {
